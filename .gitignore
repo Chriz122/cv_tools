@@ -1,0 +1,5 @@
+# 忽略資料目錄
+calibrate\data
+calibrate\run
+depth\data
+traditional_cv\data
