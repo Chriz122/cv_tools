@@ -91,8 +91,8 @@ mean_RT = np.hstack((mean_R, mean_T))
 print("\n平均 [R|T] 轉移矩陣:")
 print(mean_RT)
 
-# === 輸出到 YAML（確保目錄存在並以絕對路徑開啟） ===
-base_dir = os.path.dirname(os.path.abspath(__file__))
+# === 輸出到 YAML ===
+base_dir = fr"calibrate"
 out_dir = os.path.join(base_dir, 'run')
 os.makedirs(out_dir, exist_ok=True)
 out_path = os.path.join(out_dir, 'calibration.yaml')
