@@ -6,6 +6,7 @@
 
 ```
 cv_tool/
+├─ .gitignore                  # Git 忽略配置文件
 ├─ calibrate/                  # 相機標定相關程式與資料
 │  ├─ calibrate.py             # 相機標定主程式（OpenCV 應用）
 │  ├─ calibrate2mm.py          # 標定結果單位轉換/校正（mm）
